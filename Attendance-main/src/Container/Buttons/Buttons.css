@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap');
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .adminButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    margin: 10px;
+    font-size: 1.1em; /* adjust the value to make the buttons bigger or smaller */
+    font-family: 'Aref Ruqaa Ink', serif;
+    padding: 5px 10px;
+
+    color: white;
+    background-color: #10c5f2;
+  }
+  .btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 8px #BFBFBF;
+  }
+  
+  
+  .logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .logout button {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 130px;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+  }
+  
+  .logout button:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+ 
+  @media (max-width: 700px) {
+    .btn-container{
+      display: grid;
+    }
+    .adminButton{
+      display: grid;
+    }
+  }
+  

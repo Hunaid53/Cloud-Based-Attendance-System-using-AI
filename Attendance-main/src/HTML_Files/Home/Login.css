@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+.login-form {
+  font-family: 'Ubuntu Mono', monospace;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  padding: 8px;
+  background: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 280px;
+  align-self: center;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.login-form button[type="submit"] {
+  width: 75%;
+  border: none;
+  background: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.0em;
+  margin-top: 3px;
+  margin-bottom: -1rem;
+}
+
+.label {
+  margin-top: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.d-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+}
+
+/* Add a background image and make it cover the whole page */
+body {
+  background-image: url('./../../../public/MBIT.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@media (max-width: 576px) {
+  .box-container {
+    margin: 57% 5% 5% 42%;
+  }
+}
+
+@media (min-width: 576px) {
+  .box-container {
+    margin: 56% 5% 5% 48%;
+  }
+}
+
+/* Small devices (tablets) */
+@media (min-width: 768px) {
+  .box-container {
+    margin: 46% 5% 5% 47%;
+  }
+}
+
+/* Medium devices (desktops) */
+@media (min-width: 992px) {
+  .box-container {
+    margin: 27% 5% 5% 46%;
+  }
+}
+
+/* Large devices (large desktops) */
+@media (min-width: 1200px) {
+  .box-container {
+    margin: 30% 5% 5% 45%;
+  }
+
+  @media (min-width: 1800px) {
+    .box-container {
+      margin: 49% 5% 5% 53%;
+    }
+  }
+}
